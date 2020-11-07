@@ -1,5 +1,4 @@
 ﻿// Graph2.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -143,32 +142,7 @@ int main()
 	DFSTraverse(&G,0);
 	return 0;
 }
-////图的销毁
-//void DestoryGraph(AGraph G) {
-//
-//
-//}
-//
-//
-////删除弧
-//void DeleteArc(AGraph G, int v, int w) {
-//
-//}
-////获取位置在v的顶点的名字
-//VetexType GetVex(AGraph G,int v) {
-//
-//}
-//void PutVex(AGraph G,int v,VetexType value) {
-//	//对在位置v的顶点赋予名字
-//}
-////插入顶点
-//void InsertVertex(AGraph G,int v) {
-//
-//}
-////删除顶点
-//void DeleteVertex(AGraph G,int v) {
-//
-//}
+
 
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
